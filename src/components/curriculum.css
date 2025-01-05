@@ -1,0 +1,105 @@
+.curriculum {
+    padding: 40px 20px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .curriculum h2 {
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  
+  .curriculum p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .level-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    color: #ffc107;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: #e5b800;
+  }
+  
+  .level-details {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+  }
+  
+  .level-details h3 {
+    color: #ffc107;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+  }
+  
+  .level-details .topics {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .level-details .topics ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .level-details .topics .topic-item {
+    background-color: #2a2a2a;
+    color: #00aaff; /* Blue for topics */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+  }
+  
+  .level-details .description {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .level-details a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 28px;
+    background-color: #ffc107;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .level-details a:hover {
+    background-color: #e5b800;
+  }
+  

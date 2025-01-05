@@ -1,0 +1,29 @@
+.floating-navbar {
+    position: fixed;
+    bottom: 20px; /* Adjust for top or bottom placement */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure it stays above content */
+  }
+  
+  .navbar-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-icon:hover {
+    transform: scale(1.2); /* Slight enlargement on hover */
+  }
+  
+  .icon {
+    font-size: 30px; /* Size of the icons */
+    color: white; /* White color for the icons */
+    display: block;
+  }
+  

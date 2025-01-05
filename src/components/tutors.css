@@ -1,0 +1,79 @@
+.about {
+    padding: 40px 20px;
+    background-color: #121212; /* Dark theme background */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffc107; /* Highlighted header */
+  }
+  
+  .about .intro,
+  .about .closing {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about .highlight {
+    color: #ffc107; /* Highlight text */
+    font-weight: bold;
+  }
+  
+  .tutors {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tutor-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%; /* Cards will occupy 30% of the container width */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tutor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  }
+  
+  .tutor-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .tutor-card h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #ffc107;
+  }
+  
+  .tutor-card p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .tutor-card ul {
+    list-style-type: disc;
+    margin: 10px 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .tutor-card ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
