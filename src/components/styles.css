@@ -1,0 +1,102 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* HomePage Section */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Slideshow */
+.slideshow-container {
+  width: 100%;
+  height: 100vh; /* Full height for larger screens */
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images fill the container proportionally */
+  opacity: 0; /* Start hidden */
+  transition: opacity 1.5s ease-in-out; /* Smooth fade transition */
+}
+
+.slideshow-image.active {
+  opacity: 1;
+}
+
+/* Logo */
+.logo-container {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  z-index: 10; /* Ensure it's above the slideshow */
+}
+
+.logo {
+  max-width: 200px; /* Adjust size for desktop */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 150px; /* Smaller size for mobile */
+  }
+}
+
+/* Content Below Slideshow */
+.content {
+  text-align: center;
+  margin-top: 20px; /* Space below slideshow */
+  z-index: 2;
+  position: relative;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+.cursor {
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

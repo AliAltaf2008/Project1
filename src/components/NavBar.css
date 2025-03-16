@@ -1,0 +1,77 @@
+/* Floating Bottom Navbar */
+.floating-navbar {
+  position: fixed;
+  bottom: 10px; /* Stick to the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background: rgba(17, 17, 17, 0.9); /* Dark background */
+  padding: 8px 12px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  z-index: 1000;
+}
+
+/* Navbar Icons */
+.navbar-icon {
+  position: relative;
+  padding: 12px;
+  margin: 0 8px; /* Space between icons */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon Style */
+.navbar-icon .icon {
+  font-size: 24px;
+  color: white;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar-icon:hover .icon {
+  color: yellow;
+  transform: scale(1.2);
+}
+
+/* Tooltip */
+.navbar-icon::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 40px; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+/* Show Tooltip on Hover */
+.navbar-icon:hover::after {
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .floating-navbar {
+    bottom: 5px; /* Adjust for smaller screens */
+    padding: 6px 8px;
+  }
+
+  .navbar-icon {
+    padding: 10px;
+  }
+
+  .navbar-icon .icon {
+    font-size: 20px; /* Adjust icon size */
+  }
+}

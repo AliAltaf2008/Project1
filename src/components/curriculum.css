@@ -1,0 +1,91 @@
+/* Curriculum Section */
+.curriculum {
+  padding: 20px;
+  text-align: center;
+  background-color: #121212; /* Dark background for the curriculum section */
+  color: #fff; /* White text for contrast */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.level-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-button {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ffc107;
+  transition: transform 0.3s ease;
+}
+
+.nav-button:hover {
+  transform: scale(1.2);
+}
+
+.level-details {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #444; /* Darker border to match theme */
+  border-radius: 8px;
+  background-color: #333; /* Slightly lighter than section background */
+  margin: 0 10px;
+}
+
+.level-details h3 {
+  font-size: 1.5rem;
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.topics ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.topics ul li {
+  margin: 5px 0;
+  color: red; /* Red color for topics */
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #e5b800;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .level-navigation {
+    flex-direction: column;
+  }
+
+  .level-details {
+    width: 90%;
+    margin: 10px 0;
+  }
+}

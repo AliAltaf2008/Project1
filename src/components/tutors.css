@@ -1,0 +1,88 @@
+/* About Section */
+.about {
+  padding: 20px;
+  text-align: center;
+  background-color: #121212; /* Match the gap's background color */
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #ffc107;
+  margin-bottom: 20px;
+}
+
+.highlight-bold {
+  font-weight: bold;
+  color: #ffc107; /* Yellow text for "Math4Less" */
+}
+
+.tutors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tutor-card {
+  background-color: #222; /* Slightly lighter than the section background */
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 30%; /* Default width for larger screens */
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.tutor-photo {
+  width: 100%; /* Fill card width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Smooth rounded corners */
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.tutor-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color:#fff;
+}
+
+.tutor-card p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.tutor-card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tutors {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+
+  .tutor-card {
+    width: 90%; /* Full width for mobile */
+    text-align: center;
+  }
+
+  .tutor-photo {
+    width: 80%; /* Resize images for smaller screens */
+    margin: 0 auto 10px;
+  }
+}
