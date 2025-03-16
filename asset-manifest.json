@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.db4b0ec8.css",
-    "main.js": "/static/js/main.34234a1e.js",
+    "main.css": "/static/css/main.87525907.css",
+    "main.js": "/static/js/main.67f53406.js",
+    "static/media/home3.png": "/static/media/home3.39e8e8530825167dd453.png",
     "static/media/home1.png": "/static/media/home1.d8bd9eb4b4e84f307bce.png",
     "static/media/home2.png": "/static/media/home2.59d8c0eacfee6b89cb8d.png",
     "static/media/studentpic1.jpeg": "/static/media/studentpic1.0971ca672bc31a32ea51.jpeg",
     "static/media/studentpic2.jpeg": "/static/media/studentpic2.0248218d40312cfa99f3.jpeg",
     "static/media/studentpic3.jpeg": "/static/media/studentpic3.2979e4f19ccb6a83f397.jpeg",
     "static/media/rick.png": "/static/media/rick.8e86f15aea23f7bdf81f.png",
+    "static/media/MathMobile.png": "/static/media/MathMobile.00302b573626cac5cb33.png",
     "static/media/Math4Less.png": "/static/media/Math4Less.e44d3cb4d4d2517600ee.png",
     "static/media/zishen.png": "/static/media/zishen.3904ced72b0582dce58c.png",
     "index.html": "/index.html",
-    "main.db4b0ec8.css.map": "/static/css/main.db4b0ec8.css.map",
-    "main.34234a1e.js.map": "/static/js/main.34234a1e.js.map"
+    "main.87525907.css.map": "/static/css/main.87525907.css.map",
+    "main.67f53406.js.map": "/static/js/main.67f53406.js.map"
   },
   "entrypoints": [
-    "static/css/main.db4b0ec8.css",
-    "static/js/main.34234a1e.js"
+    "static/css/main.87525907.css",
+    "static/js/main.67f53406.js"
   ]
 }
